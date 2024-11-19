@@ -22,4 +22,4 @@ app.get('/lembretes', (req, res) => {
     res.send(lembretes)
 })
 
-app.listen(5000, () => console.log("Lembretes. Porta 5000."))
+app.listen(4000, () => console.log("Lembretes. Porta 4000."))
